@@ -2,6 +2,7 @@
 
 import Title from "@/components/Title";
 import { IntroductionContainer } from "./styles";
+import Image from "next/image";
 
 function Introduction() {
   return (
@@ -14,6 +15,30 @@ function Introduction() {
           divino para o seu sofá.
         </p>
       </Title>
+
+      <ul>
+        <li id="label-1">
+          <span>Seu sofá renovado</span>
+        </li>
+        <li id="label-2">
+          <span>Com conforto</span>
+        </li>
+        <li id="label-3">
+          <span>No seu lar</span>
+        </li>
+        <li id="label-4">
+          <span>Toque celestial</span>
+        </li>
+      </ul>
+
+      <div className="image-container">
+        <Image
+          src="/sofa.png"
+          fill
+          alt="Sofá branco com uma mesinha branca que tem um abajur branco em cima"
+          unoptimized
+        />
+      </div>
     </IntroductionContainer>
   );
 }
