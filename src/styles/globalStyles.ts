@@ -66,6 +66,10 @@ const GlobalStyles = createGlobalStyle`
     margin: 0 120px;
   }
 
+  .sections-between-sections {
+    padding-top: 200px;
+  }
+
   /* ---------- SCROLLBAR ---------- */
 
   *::-webkit-scrollbar,
