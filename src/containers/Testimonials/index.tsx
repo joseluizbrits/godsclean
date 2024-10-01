@@ -8,7 +8,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 
 import { testimonials } from "@/utils/testimonials";
-import useMedia from "@/hooks/useMedia";
 
 import Title from "@/components/Title";
 import Star from "@/icons/Star";
@@ -16,7 +15,12 @@ import Quotes from "@/icons/Quotes";
 import { openSans } from "@/lib/fonts";
 
 function Testimonials() {
-  const mobile = useMedia("(max-width: 1080px)");
+  const pagination = {
+    clickable: true,
+    renderBullet: function (index: number, className: string) {
+      return '<span class="' + className + '"></span>';
+    },
+  };
 
   return (
     <TestimonialsContainer className="containers-between-space padding-space">
@@ -26,9 +30,9 @@ function Testimonials() {
 
       <Swiper
         id="projects"
-        slidesPerView={mobile ? 1 : 2}
+        slidesPerView={2}
         spaceBetween={20}
-        pagination={true}
+        pagination={pagination}
         modules={[Pagination]}
       >
         {testimonials.map(({ id, title, testimonial, author, img, link }) => (

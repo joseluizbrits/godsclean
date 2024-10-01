@@ -4,8 +4,6 @@ export const TestimonialsContainer = styled.section`
   background-image: linear-gradient(var(--white) 70%, var(--bg));
   overflow-x: hidden;
 
-  margin-bottom: 200px;
-
   .swiper-wrapper {
     display: flex;
     width: fit-content;
