@@ -1,14 +1,8 @@
 function Bench() {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="48"
-      height="49"
-      fill="none"
-      viewBox="0 0 48 49"
-    >
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="49" fill="none">
       <path
-        fill="url(#paint0_radial_155_113)"
+        fill="url(#a)"
         d="M0 5.5a5 5 0 015-5h38a5 5 0 015 5v38a5 5 0 01-5 5H5a5 5 0 01-5-5v-38z"
       ></path>
       <path
@@ -17,7 +11,7 @@ function Bench() {
       ></path>
       <defs>
         <radialGradient
-          id="paint0_radial_155_113"
+          id="a"
           cx="0"
           cy="0"
           r="1"

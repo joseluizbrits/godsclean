@@ -1,16 +1,16 @@
 import styled from "styled-components";
 
 export const ServicesContainer = styled.section`
-  background-image: linear-gradient(var(--bg), var(--white) 35% 65%, var(--bg));
+  background-image: linear-gradient(var(--bg), var(--white) 35% 80%, var(--bg));
   margin-top: -40px;
 
   h3 {
     font-weight: 500;
-    font-size: 3.5rem;
+    font-size: 3.25rem;
     letter-spacing: 0.02rem;
     line-height: 1.1em;
     color: var(--text);
-    max-width: 9ch;
+    max-width: 10ch;
     margin-bottom: 64px;
   }
 
@@ -18,7 +18,7 @@ export const ServicesContainer = styled.section`
     margin-top: 120px;
     display: grid;
     grid-template-columns: 1fr 2.5fr;
-    gap: 120px;
+    gap: 80px;
   }
 
   ul {
@@ -36,8 +36,8 @@ export const ServicesContainer = styled.section`
 
   li p {
     font-size: 1.15rem;
-    color: var(--text);
     line-height: 1.15em;
+    color: var(--text);
 
     strong {
       font-size: 1.15rem;

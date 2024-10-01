@@ -17,6 +17,7 @@ export const ProcessContainer = styled.section`
   li > div {
     height: 100%;
     padding: 28px;
+    padding-bottom: 56px;
     border: 1px solid #a7c9ff;
     border-radius: 10px;
 

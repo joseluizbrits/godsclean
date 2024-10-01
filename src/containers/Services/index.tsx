@@ -15,34 +15,37 @@ function Services() {
         <p>
           Na GodsClean, trazemos soluções de limpeza tão puras quanto os céus!
           Garantimos qualidade, confiabilidade e saúde, tudo no aconchego do seu
-          lar.
+          lar
         </p>
       </Title>
 
       <div className="content">
         <div>
-          <h3>Três tipos de lavagem</h3>
+          <h3>São três tipos de lavagem</h3>
 
           <ul>
             <li>
               <Sofa />
               <p>
-                <strong>Sofás:</strong>Fazemos uma limpeza profunda que devolve
-                o brilho e aconchego do seu sofá
+                <strong>Sofás:</strong>Removemos manchas, odores e sujeira
+                acumulada, deixando seu sofá pronto para os milagres do dia a
+                dia.
               </p>
             </li>
             <li>
               <Bed />
               <p>
-                <strong>Colchões:</strong>Menos ácaros e impurezas. Damos uma
-                nova vida ao seu cantinho do sono
+                <strong>Colchões:</strong>Adeus ácaros e impurezas. Nossa
+                limpeza garante noites mais limpas e tranquilas, como dormir nas
+                nuvens.
               </p>
             </li>
             <li>
               <Bench />
               <p>
-                <strong>Bancos Automotivos:</strong>O banco do seu carro como
-                era antes, limpo e confortável
+                <strong>Bancos Automotivos:</strong>Eliminamos sujeira e manchas
+                dos bancos, te proporcionando uma viagem tão limpa quanto
+                relaxante.
               </p>
             </li>
           </ul>

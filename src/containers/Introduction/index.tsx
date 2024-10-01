@@ -12,7 +12,7 @@ function Introduction() {
         <p>
           A GodsClean é a sua aliada celestial na batalha contra a sujeira!
           Somos especialistas em higienização de estofados, trazendo um toque
-          divino para o seu sofá.
+          divino para o seu sofá
         </p>
       </Title>
 

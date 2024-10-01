@@ -1,21 +1,7 @@
-import React from "react";
-
 function Bed() {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="48"
-      height="49"
-      fill="none"
-      viewBox="0 0 48 49"
-    >
-      <rect
-        width="48"
-        height="48"
-        y="0.5"
-        fill="url(#paint0_radial_155_116)"
-        rx="5"
-      ></rect>
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="49" fill="none">
+      <rect width="48" height="48" y="0.5" fill="url(#a)" rx="5"></rect>
       <path
         fill="#A3BFEA"
         d="M42.899 22.37l-13.356 4.867c-.665.24-1.34 1.014-1.34 1.717v11.14c0 .703.702 1.078 1.364.83l13.343-4.972c.662-.248 1.09-1.024 1.09-1.727V23.207c0-.703-.436-1.08-1.101-.837zM18.332 13.2l-9.035 3.306c-.63.23-.75.8-.272 1.267l3.385 3.302c.481.466 1.377.636 1.995.38l9.175-3.812c.618-.256.705-.82.192-1.25l-3.367-2.828c-.512-.431-1.445-.595-2.073-.365z"
@@ -30,7 +16,7 @@ function Bed() {
       ></path>
       <defs>
         <radialGradient
-          id="paint0_radial_155_116"
+          id="a"
           cx="0"
           cy="0"
           r="1"
