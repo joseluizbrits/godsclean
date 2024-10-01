@@ -7,10 +7,10 @@ import Link from "next/link";
 function Footer() {
   return (
     <FooterContainer className="containers-between-space padding-space">
-      <div>
+      <Link href="/">
         <Logo />
         <span>GODSCLEAN</span>
-      </div>
+      </Link>
       <div>
         <span>
           © Copyright 2024 - 2025 | GODSCLEAN | Todos os Direitos Reservados |

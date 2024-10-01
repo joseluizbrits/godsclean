@@ -15,6 +15,7 @@ export const FooterContainer = styled.footer`
   }
 
   span {
+    display: block;
     color: var(--text);
     letter-spacing: 0.05rem;
   }
@@ -23,8 +24,21 @@ export const FooterContainer = styled.footer`
     text-transform: uppercase;
   }
 
-  a {
+  span a {
     text-decoration: underline;
     color: var(--text);
+  }
+
+  @media screen and (max-width: 1440px) {
+    padding-top: 200px;
+  }
+
+  @media screen and (max-width: 1080px) {
+    flex-direction: column;
+    gap: 20px;
+
+    span {
+      text-align: center;
+    }
   }
 `;

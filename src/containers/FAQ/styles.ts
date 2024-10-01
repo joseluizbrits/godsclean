@@ -50,4 +50,11 @@ export const FAQContainer = styled.section`
   .active svg {
     rotate: 180deg;
   }
+
+  @media screen and (max-width: 1080px) {
+    ul {
+      margin: 0;
+      margin-top: 64px;
+    }
+  }
 `;

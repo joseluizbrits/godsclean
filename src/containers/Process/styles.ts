@@ -48,4 +48,10 @@ export const ProcessContainer = styled.section`
   p + p {
     padding-top: 16px;
   }
+
+  @media screen and (max-width: 1080px) {
+    ul {
+      grid-template-columns: 1fr;
+    }
+  }
 `;

@@ -20,7 +20,7 @@ export const HeaderContainer = styled.header`
   }
 
   ul :last-child a {
-    padding: 16px 16px 6px 16px;
+    padding: 16px 16px 8px 16px;
     font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
@@ -29,7 +29,7 @@ export const HeaderContainer = styled.header`
     &::after {
       content: "";
       width: 71%;
-      height: 3px;
+      height: 2.5px;
       background-color: var(--text);
 
       position: absolute;

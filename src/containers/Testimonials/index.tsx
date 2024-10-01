@@ -13,8 +13,11 @@ import { openSans } from "@/lib/fonts";
 import Title from "@/components/Title";
 import Star from "@/icons/Star";
 import Quotes from "@/icons/Quotes";
+import useMedia from "@/hooks/useMedia";
 
 function Testimonials() {
+  const mobile = useMedia("(max-width: 1080px)");
+
   const pagination = {
     clickable: true,
     renderBullet: function (index: number, className: string) {
@@ -30,7 +33,7 @@ function Testimonials() {
 
       <Swiper
         id="projects"
-        slidesPerView={2}
+        slidesPerView={mobile ? 1 : 2}
         spaceBetween={20}
         pagination={pagination}
         modules={[Pagination]}

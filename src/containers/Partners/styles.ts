@@ -28,4 +28,14 @@ export const PartnersContainer = styled.section`
   img {
     object-fit: cover;
   }
+
+  @media screen and (max-width: 1440px) {
+    padding-top: 200px;
+  }
+
+  @media screen and (max-width: 992px) {
+    ul {
+      justify-content: start;
+    }
+  }
 `;

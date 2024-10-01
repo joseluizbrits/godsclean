@@ -59,4 +59,34 @@ export const AboutContainer = styled.section`
     text-align: center;
     color: var(--white);
   }
+
+  @media screen and (max-width: 1440px) {
+    padding-top: 200px;
+  }
+
+  @media screen and (max-width: 1280px) {
+    h3 {
+      margin-bottom: 40px;
+    }
+
+    > :nth-child(2) {
+      grid-template-columns: 1fr 1.3fr;
+    }
+
+    > :nth-child(2) p + p {
+      padding-top: 20px;
+    }
+
+    ul {
+      margin: 0;
+      margin-top: 80px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    > :nth-child(2),
+    ul {
+      grid-template-columns: 1fr;
+    }
+  }
 `;

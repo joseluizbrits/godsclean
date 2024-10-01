@@ -100,4 +100,8 @@ export const TestimonialsContainer = styled.section`
   .swiper-pagination-bullet-active {
     opacity: 0.6;
   }
+
+  @media screen and (max-width: 1440px) {
+    padding-top: 200px;
+  }
 `;

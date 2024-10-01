@@ -1,14 +1,15 @@
 "use client";
 
-import Title from "@/components/Title";
 import { ProcessContainer } from "./styles";
+import { openSans } from "@/lib/fonts";
+import Title from "@/components/Title";
 
 function Process() {
   return (
     <ProcessContainer className="containers-between-space margin-space">
       <Title>
         <h2>Como funciona o processo?</h2>
-        <p>
+        <p className={openSans.className}>
           O processo de limpeza é simples, rápido e utiliza produtos próprios e
           de alta qualidade. A cura do seu sofá funciona da seguinte maneira
         </p>
@@ -20,8 +21,10 @@ function Process() {
             <span>1</span>
             <h3>Flotador Limpador</h3>
             <div>
-              <p>Aplicamos o flotador limpador na superfície do estofado.</p>
-              <p>
+              <p className={openSans.className}>
+                Aplicamos o flotador limpador na superfície do estofado.
+              </p>
+              <p className={openSans.className}>
                 Logo em seguida, deixamos agir por alguns minutos para{" "}
                 <strong>soltar as moléculas de sujeira</strong>, facilitando a
                 remoção posterior.
@@ -35,11 +38,11 @@ function Process() {
             <span>2</span>
             <h3>Remoção de Sujidade</h3>
             <div>
-              <p>
+              <p className={openSans.className}>
                 Esfregamos o estofado para{" "}
                 <strong>retirar crostas e manchas de sujeira.</strong>
               </p>
-              <p>
+              <p className={openSans.className}>
                 Esta etapa pode ser repetida conforme o nível de sujeira
                 presente.
               </p>
@@ -52,8 +55,10 @@ function Process() {
             <span>3</span>
             <h3>Extração e Enxágue</h3>
             <div>
-              <p>Extraímos toda a sujeira solta para um reservatório.</p>
-              <p>
+              <p className={openSans.className}>
+                Extraímos toda a sujeira solta para um reservatório.
+              </p>
+              <p className={openSans.className}>
                 Enxaguamos o estofado para{" "}
                 <strong>remover qualquer resíduo de produto e sujeira.</strong>
               </p>
