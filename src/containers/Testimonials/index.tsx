@@ -7,12 +7,12 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 
-import { testimonials } from "@/utils/testimonials";
+import { testimonials } from "./testimonials";
+import { openSans } from "@/lib/fonts";
 
 import Title from "@/components/Title";
 import Star from "@/icons/Star";
 import Quotes from "@/icons/Quotes";
-import { openSans } from "@/lib/fonts";
 
 function Testimonials() {
   const pagination = {

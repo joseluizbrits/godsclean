@@ -7,7 +7,7 @@ export const TestimonialsContainer = styled.section`
   .swiper-wrapper {
     display: flex;
     width: fit-content;
-    margin-top: 64px;
+    margin-top: 80px;
     cursor: grab;
   }
 
@@ -79,18 +79,6 @@ export const TestimonialsContainer = styled.section`
     color: var(--emphasis);
   }
 
-  .swiper-button-prev,
-  .swiper-button-next {
-  }
-
-  .swiper-button-next {
-  }
-
-  .swiper-button-disabled {
-    opacity: 0;
-    pointer-events: none;
-  }
-
   .swiper-pagination {
     margin-top: 40px;
     display: flex;
@@ -106,6 +94,7 @@ export const TestimonialsContainer = styled.section`
     background-color: var(--text);
     opacity: 0.1;
     transition: 0.2s ease-out;
+    cursor: pointer;
   }
 
   .swiper-pagination-bullet-active {
