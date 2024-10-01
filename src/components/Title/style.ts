@@ -26,7 +26,7 @@ export const TitleContainer = styled.div`
     font-size: 1.25rem;
     line-height: 1.15em;
     color: var(--text);
-    max-width: 45ch;
+    max-width: 50ch;
     margin-top: 8px;
   }
 `;

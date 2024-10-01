@@ -11,9 +11,9 @@ export const HeroContainer = styled.div`
 
   h1 {
     font-weight: 400;
-    font-size: 6rem;
-    text-transform: uppercase;
+    font-size: clamp(5rem, 6vw, 7.5rem);
     letter-spacing: 0.05rem;
+    text-transform: uppercase;
     color: var(--white);
     margin-bottom: 80px;
 

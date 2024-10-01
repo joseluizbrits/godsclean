@@ -3,13 +3,14 @@
 import Title from "@/components/Title";
 import { IntroductionContainer } from "./styles";
 import Image from "next/image";
+import { openSans } from "@/lib/fonts";
 
 function Introduction() {
   return (
     <IntroductionContainer className="containers-between-space">
       <Title centered>
         <h2>O que é a GODSCLEAN?</h2>
-        <p>
+        <p className={openSans.className}>
           A GodsClean é a sua aliada celestial na batalha contra a sujeira!
           Somos especialistas em higienização de estofados, trazendo um toque
           divino para o seu sofá
