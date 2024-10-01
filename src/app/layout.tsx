@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { jost } from "@/lib/fonts";
 import StylesProvider from "@/styles/StylesProvider";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer/indext";
 
 export const metadata: Metadata = {
   title: "GodsClean | Limpeza e Lavagem de Estofados",
@@ -35,6 +36,7 @@ export default function RootLayout({
         <StylesProvider>
           <Header />
           {children}
+          <Footer />
         </StylesProvider>
       </body>
     </html>
