@@ -6,7 +6,7 @@ import Image from "next/image";
 
 function Introduction() {
   return (
-    <IntroductionContainer className="sections-between-sections">
+    <IntroductionContainer className="containers-between-space">
       <Title centered>
         <h2>O que é a GODSCLEAN?</h2>
         <p>

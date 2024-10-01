@@ -16,6 +16,7 @@ export const TitleContainer = styled.div`
   }
 
   h2 {
+    font-weight: 500;
     font-size: 4rem;
     letter-spacing: 0.05rem;
     color: var(--emphasis);

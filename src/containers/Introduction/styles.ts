@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const IntroductionContainer = styled.section`
-  background-color: var(--bg);
-
   ul {
     height: 85vh;
     position: relative;
