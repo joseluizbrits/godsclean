@@ -1,11 +1,19 @@
 "use client";
 
 import { TestimonialsContainer } from "./styles";
-import useMedia from "@/hooks/useMedia";
+import Link from "next/link";
+import Image from "next/image";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
+import { Pagination } from "swiper/modules";
+
+import { testimonials } from "@/utils/testimonials";
+import useMedia from "@/hooks/useMedia";
+
 import Title from "@/components/Title";
+import Star from "@/icons/Star";
+import Quotes from "@/icons/Quotes";
+import { openSans } from "@/lib/fonts";
 
 function Testimonials() {
   const mobile = useMedia("(max-width: 1080px)");
@@ -20,10 +28,37 @@ function Testimonials() {
         id="projects"
         slidesPerView={mobile ? 1 : 2}
         spaceBetween={20}
-        navigation={true}
-        modules={[Navigation]}
+        pagination={true}
+        modules={[Pagination]}
       >
-        <SwiperSlide></SwiperSlide>
+        {testimonials.map(({ id, title, testimonial, author, img, link }) => (
+          <SwiperSlide key={id}>
+            <div>
+              <h3 className={openSans.className}>{title}</h3>
+              <Link href={link}>Ver no Google</Link>
+            </div>
+
+            <p className={openSans.className}>{testimonial}</p>
+
+            <div>
+              <div>
+                <Image src={img.src} width={100} height={100} alt={img.alt} />
+                <div>
+                  <span>{author}</span>
+                  <div className="stars">
+                    <Star />
+                    <Star />
+                    <Star />
+                    <Star />
+                    <Star />
+                  </div>
+                </div>
+              </div>
+
+              <Quotes />
+            </div>
+          </SwiperSlide>
+        ))}
       </Swiper>
     </TestimonialsContainer>
   );

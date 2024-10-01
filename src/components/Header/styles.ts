@@ -20,10 +20,21 @@ export const HeaderContainer = styled.header`
   }
 
   ul :last-child a {
-    padding: 6px 0;
+    padding: 16px 16px 6px 16px;
     font-weight: 600;
     text-transform: uppercase;
-    border-bottom: solid 3px var(--text);
     cursor: pointer;
+    position: relative;
+
+    &::after {
+      content: "";
+      width: 71%;
+      height: 3px;
+      background-color: var(--text);
+
+      position: absolute;
+      bottom: 0;
+      left: 14.5%;
+    }
   }
 `;
