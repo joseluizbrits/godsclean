@@ -6,7 +6,7 @@ export const ServicesContainer = styled.section`
 
   h3 {
     font-weight: 500;
-    font-size: 3.25rem;
+    font-size: clamp(2.5rem, 3vw, 3.25rem);
     letter-spacing: 0.02rem;
     line-height: 1.1em;
     color: var(--text);
@@ -93,6 +93,69 @@ export const ServicesContainer = styled.section`
     .images > div:not(:nth-child(1)) {
       aspect-ratio: initial;
       height: 160px;
+    }
+  }
+
+  @media screen and (max-width: 1440px) {
+    padding-top: 200px;
+
+    .content {
+      gap: 64px;
+    }
+
+    .images {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    }
+
+    #img-1 {
+      grid-column: 1;
+    }
+  }
+
+  @media screen and (max-width: 1080px) {
+    h3 {
+      margin-bottom: 40px;
+    }
+
+    .content {
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+    }
+
+    ul {
+      gap: 20px;
+    }
+
+    li p {
+      font-size: 1rem;
+
+      strong {
+        font-size: 1rem;
+      }
+    }
+
+    .images > :nth-child(1) {
+      display: none;
+    }
+
+    .images > div:not(:nth-child(1)) {
+      height: auto;
+    }
+
+    #img-2 {
+      margin-top: 0;
+    }
+
+    #img-3 {
+      margin-bottom: 0;
+    }
+    #img-4 {
+      margin-left: 0;
+    }
+
+    #img-5 {
+      margin-right: 0;
     }
   }
 `;

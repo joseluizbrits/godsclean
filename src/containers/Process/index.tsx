@@ -5,7 +5,7 @@ import { ProcessContainer } from "./styles";
 
 function Process() {
   return (
-    <ProcessContainer className="containers-between-space padding-space">
+    <ProcessContainer className="containers-between-space margin-space">
       <Title>
         <h2>Como funciona o processo?</h2>
         <p>
