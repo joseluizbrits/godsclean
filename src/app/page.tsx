@@ -5,6 +5,7 @@ import Process from "@/containers/Process";
 import About from "@/containers/About";
 import Testimonials from "@/containers/Testimonials";
 import Partners from "@/containers/Partners";
+import FAQ from "@/containers/FAQ";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <About />
       <Testimonials />
       <Partners />
+      <FAQ />
     </>
   );
 }

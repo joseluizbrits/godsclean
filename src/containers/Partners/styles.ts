@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const PartnersContainer = styled.section`
-  margin-bottom: 200px;
-
   ul {
     display: flex;
     justify-content: center;
