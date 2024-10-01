@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const ServicesContainer = styled.section`
   background-image: linear-gradient(var(--bg), var(--white) 35% 65%, var(--bg));
-  padding-bottom: 200px;
   margin-top: -40px;
 
   h3 {
