@@ -13,7 +13,7 @@ function Services() {
   return (
     <ServicesContainer className="containers-between-space padding-space">
       <Title centered>
-        <h2>O que oferecemos?</h2>
+        <h2>O que Oferecemos?</h2>
         <p className={openSans.className}>
           Na GodsClean, trazemos soluções de limpeza tão puras quanto os céus!{" "}
           <strong>Garantimos qualidade, confiabilidade e saúde</strong>, tudo no
@@ -23,31 +23,31 @@ function Services() {
 
       <div className="content">
         <div>
-          <h3>São três tipos de lavagem</h3>
+          <h3>São Três Tipos de Lavagem</h3>
 
           <ul>
             <li>
               <Sofa />
               <p className={openSans.className}>
-                <strong>Sofás:</strong>Removemos manchas, odores e sujeira
-                acumulada, deixando seu sofá pronto para os milagres do dia a
-                dia.
+                <strong>Sofás:</strong>
+                <em>Removemos manchas, odores e sujeira acumulada</em>, deixando
+                seu sofá pronto para os milagres do dia a dia.
               </p>
             </li>
             <li>
               <Bed />
               <p className={openSans.className}>
-                <strong>Colchões:</strong>Adeus ácaros e impurezas. Nossa
-                limpeza garante noites mais limpas e tranquilas, como dormir nas
-                nuvens.
+                <strong>Colchões:</strong>Adeus ácaros e impurezas. Nossa{" "}
+                <em>limpeza garante noites mais limpas e tranquilas</em>, como
+                dormir nas nuvens.
               </p>
             </li>
             <li>
               <Bench />
               <p className={openSans.className}>
-                <strong>Bancos Automotivos:</strong>Eliminamos sujeira e manchas
-                dos bancos, te proporcionando uma viagem tão limpa quanto
-                relaxante.
+                <strong>Bancos Automotivos:</strong>
+                <em>Eliminamos sujeira e manchas dos bancos</em>, te
+                proporcionando uma viagem tão limpa quanto relaxante.
               </p>
             </li>
           </ul>

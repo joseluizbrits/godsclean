@@ -6,11 +6,11 @@ export const ServicesContainer = styled.section`
 
   h3 {
     font-weight: 500;
-    font-size: clamp(2.5rem, 3vw, 3.25rem);
+    font-size: clamp(2.15rem, 3vw, 3.25rem);
     letter-spacing: 0.02rem;
     line-height: 1.1em;
     color: var(--text);
-    max-width: 10ch;
+    max-width: 11ch;
     margin-bottom: 64px;
   }
 
@@ -36,13 +36,18 @@ export const ServicesContainer = styled.section`
 
   li p {
     font-size: 1.15rem;
-    line-height: 1.15em;
+    line-height: 1.35em;
     color: var(--text);
 
     strong {
       font-size: 1.15rem;
       color: var(--highlight);
       margin-right: 6px;
+    }
+
+    em {
+      font-weight: 600;
+      font-style: normal;
     }
   }
 
@@ -131,7 +136,7 @@ export const ServicesContainer = styled.section`
       font-size: 1rem;
 
       strong {
-        font-size: 1rem;
+        font-size: 1.2rem;
       }
     }
 
@@ -156,6 +161,30 @@ export const ServicesContainer = styled.section`
 
     #img-5 {
       margin-right: 0;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-top: 80px;
+
+    .content {
+      margin-top: 80px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    padding-top: 64px;
+
+    h2 {
+      max-width: 10ch;
+    }
+
+    li {
+      align-items: start;
+    }
+
+    svg {
+      margin-top: 6px;
     }
   }
 `;
