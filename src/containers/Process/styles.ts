@@ -16,6 +16,7 @@ export const ProcessContainer = styled.section`
     padding: 8px;
     border-radius: 10px;
     background-image: radial-gradient(#f3f5fa, #b5cffe);
+    transition: 0.3s ease-out;
   }
 
   li > div {

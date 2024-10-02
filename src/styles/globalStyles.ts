@@ -7,7 +7,6 @@ const GlobalStyles = createGlobalStyle`
     --text: #4169AB;
     --emphasis: #224C8F;
     --highlight: #E3DB98;
-    /* --gradient: linear-gradient(to right, #692FA4, #764BA2, #8659B4); */
     --small: clamp(1rem, 1.125vw, 1.125rem);
     --medium: clamp(1.125rem, 1.5vw, 1.5rem);
     --large: clamp(1.75rem, 2.5vw, 2.5rem);

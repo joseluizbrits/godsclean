@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { jost } from "@/lib/fonts";
+
 import StylesProvider from "@/styles/StylesProvider";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer/indext";

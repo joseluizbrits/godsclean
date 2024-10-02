@@ -17,7 +17,9 @@ export const FAQContainer = styled.section`
 
   li div {
     padding: 24px;
+    border-radius: 10px;
     cursor: pointer;
+    transition: 0.3s ease-out;
 
     display: grid;
     grid-template-columns: 1fr auto;
@@ -42,7 +44,7 @@ export const FAQContainer = styled.section`
   }
 
   .active p {
-    padding: 0 24px 24px 24px;
+    padding: 16px 24px 36px 24px;
     height: max-content;
     opacity: 1;
     pointer-events: initial;
@@ -50,6 +52,12 @@ export const FAQContainer = styled.section`
 
   .active svg {
     rotate: 180deg;
+  }
+
+  @media screen and (min-width: 1440px) {
+    li div:hover {
+      background-color: var(--bg);
+    }
   }
 
   @media screen and (max-width: 1080px) {

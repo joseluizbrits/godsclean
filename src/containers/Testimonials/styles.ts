@@ -101,6 +101,20 @@ export const TestimonialsContainer = styled.section`
     opacity: 0.6;
   }
 
+  @media screen and (min-width: 1440px) {
+    .swiper-pagination-bullet:hover {
+      opacity: 0.3;
+    }
+
+    .swiper-pagination-bullet-active:hover {
+      opacity: 0.6;
+    }
+
+    a:hover {
+      color: var(--emphasis);
+    }
+  }
+
   @media screen and (max-width: 1440px) {
     padding-top: 200px;
   }

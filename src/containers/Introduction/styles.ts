@@ -11,8 +11,8 @@ export const IntroductionContainer = styled.section`
     width: clamp(140px, 12vw, 300px);
     height: clamp(140px, 12vw, 300px);
     border-radius: 100%;
-    background-color: var(--white);
     border: 1px solid var(--bg);
+    background-color: var(--white);
     box-shadow: 0 0 8px 0 #b6caea;
     position: absolute;
 

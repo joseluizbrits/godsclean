@@ -65,6 +65,7 @@ export const ServicesContainer = styled.section`
     img {
       object-fit: cover;
       border-radius: 2px;
+      transition: scale 0.3s ease-out;
     }
   }
 
@@ -92,6 +93,13 @@ export const ServicesContainer = styled.section`
 
   #img-5 {
     margin-right: 40px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    img:hover {
+      scale: 1.05;
+      z-index: 1;
+    }
   }
 
   @media screen and (max-width: 1680px) {

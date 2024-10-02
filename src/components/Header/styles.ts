@@ -23,7 +23,10 @@ export const HeaderContainer = styled.header`
     padding: 16px 16px 8px 16px;
     font-weight: 600;
     text-transform: uppercase;
+    border-radius: 5px;
     cursor: pointer;
+
+    transition: 0.3s ease-out;
     position: relative;
 
     &::after {
@@ -32,9 +35,21 @@ export const HeaderContainer = styled.header`
       height: 2.5px;
       background-color: var(--text);
 
+      transition: 0.3s ease-out;
       position: absolute;
       bottom: 0;
       left: 14.5%;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    ul :last-child a:hover {
+      color: var(--emphasis);
+
+      &::after {
+        width: 5%;
+        left: 47%;
+      }
     }
   }
 
