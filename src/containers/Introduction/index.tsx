@@ -9,11 +9,11 @@ function Introduction() {
   return (
     <IntroductionContainer className="containers-between-space">
       <Title centered>
-        <h2>O que é a GODSCLEAN?</h2>
+        <h2>O que é a GodsClean?</h2>
         <p className={openSans.className}>
           A GodsClean é a sua aliada celestial na batalha contra a sujeira!
-          Somos especialistas em higienização de estofados, trazendo um toque
-          divino para o seu sofá
+          Somos <strong>especialistas em higienização de estofados</strong>,
+          trazendo um toque divino para o seu sofá
         </p>
       </Title>
 

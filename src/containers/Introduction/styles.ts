@@ -4,11 +4,12 @@ export const IntroductionContainer = styled.section`
   ul {
     height: 85vh;
     position: relative;
+    margin-top: 40px;
   }
 
   li {
-    width: clamp(180px, 12vw, 300px);
-    height: clamp(180px, 12vw, 300px);
+    width: clamp(140px, 12vw, 300px);
+    height: clamp(140px, 12vw, 300px);
     border-radius: 100%;
     background-color: var(--white);
     border: 1px solid var(--bg);
@@ -27,7 +28,7 @@ export const IntroductionContainer = styled.section`
     line-height: 1.25em;
     text-align: center;
     color: var(--text);
-    max-width: 10ch;
+    max-width: 7ch;
   }
 
   #label-1 {
@@ -95,6 +96,13 @@ export const IntroductionContainer = styled.section`
   }
 
   @media screen and (max-width: 768px) {
+    padding-top: 120px;
+
+    h2,
+    p {
+      padding: 0 20px;
+    }
+
     ul {
       height: 65vh;
     }
@@ -116,6 +124,11 @@ export const IntroductionContainer = styled.section`
 
     .image-container {
       width: 120vw;
+      margin-top: -40vw;
+
+      img {
+        scale: 1.4;
+      }
     }
   }
 `;

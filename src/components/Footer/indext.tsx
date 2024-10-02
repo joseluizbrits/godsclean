@@ -13,8 +13,9 @@ function Footer() {
       </Link>
       <div>
         <span>
-          © Copyright 2024 - 2025 | GODSCLEAN | Todos os Direitos Reservados |
-          Desenvolvido por 
+          © Copyright {new Date().getFullYear()} -{" "}
+          {new Date().getFullYear() + 1} | GODSCLEAN | Todos os Direitos
+          Reservados | Desenvolvido por 
           <Link href="https://www.brits.com.br/" target="_blank">
             BRITS
           </Link>

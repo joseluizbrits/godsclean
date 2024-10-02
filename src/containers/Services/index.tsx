@@ -15,9 +15,9 @@ function Services() {
       <Title centered>
         <h2>O que oferecemos?</h2>
         <p className={openSans.className}>
-          Na GodsClean, trazemos soluções de limpeza tão puras quanto os céus!
-          Garantimos qualidade, confiabilidade e saúde, tudo no aconchego do seu
-          lar
+          Na GodsClean, trazemos soluções de limpeza tão puras quanto os céus!{" "}
+          <strong>Garantimos qualidade, confiabilidade e saúde</strong>, tudo no
+          aconchego do seu lar
         </p>
       </Title>
 

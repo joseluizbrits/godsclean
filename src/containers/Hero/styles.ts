@@ -36,4 +36,33 @@ export const HeroContainer = styled.div`
   img {
     object-fit: cover;
   }
+
+  @media screen and (max-width: 1280px) {
+    span {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    height: 75vh;
+
+    h1 {
+      font-size: 3.5rem;
+      margin-bottom: -40px;
+    }
+
+    img {
+      padding-top: 80px;
+      object-position: 46%;
+    }
+  }
+
+  @media screen and (max-width: 540px) {
+    height: 75vh;
+
+    h1 {
+      font-size: 3rem;
+    }
+  }
 `;
