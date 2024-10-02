@@ -2,15 +2,24 @@
 
 import { AboutContainer } from "./styles";
 import { openSans } from "@/lib/fonts";
+import { useRef } from "react";
 
 import Title from "@/components/Title";
 import Goal from "@/icons/Goal";
 import Eye from "@/icons/Eye";
 import Heart from "@/icons/Heart";
+import { ShowUp } from "@/animation";
 
 function About() {
+  const container = useRef(null);
+
+  ShowUp(container, ["#mission", "#vision", "#values"]);
+
   return (
-    <AboutContainer className="containers-between-space padding-space">
+    <AboutContainer
+      className="containers-between-space padding-space"
+      ref={container}
+    >
       <Title centered>
         <h2>Quem somos nós?</h2>
         <p className={openSans.className}>
@@ -52,17 +61,17 @@ function About() {
       </div>
 
       <ul>
-        <li>
+        <li id="mission">
           <Goal />
           <h4>Missão</h4>
           <p>Oferecer uma experiência de renovação.</p>
         </li>
-        <li>
+        <li id="vision">
           <Eye />
           <h4>Visão</h4>
           <p>Se tornar referência em prestações de serviços no Brasil.</p>
         </li>
-        <li>
+        <li id="values">
           <Heart />
           <h4>Valores</h4>
           <p>Ética profissional, respeito e cuidado com nosso cliente.</p>

@@ -1,13 +1,22 @@
 "use client";
 
-import Title from "@/components/Title";
 import { IntroductionContainer } from "./styles";
+import { useRef } from "react";
+
 import Image from "next/image";
+import Title from "@/components/Title";
+
 import { openSans } from "@/lib/fonts";
+import { ScaleUp, ShowUp } from "@/animation";
 
 function Introduction() {
+  const container = useRef(null);
+
+  ScaleUp(container, ["#label-1", "#label-2", "#label-3", "#label-4"]);
+  ShowUp(container, [".image-container"]);
+
   return (
-    <IntroductionContainer className="containers-between-space">
+    <IntroductionContainer className="containers-between-space" ref={container}>
       <Title centered>
         <h2>O que é a GodsClean?</h2>
         <p className={openSans.className}>
@@ -18,16 +27,16 @@ function Introduction() {
       </Title>
 
       <ul>
-        <li id="label-1">
+        <li id="label-1" className="label">
           <span>Seu sofá renovado</span>
         </li>
-        <li id="label-2">
+        <li id="label-2" className="label">
           <span>Com conforto</span>
         </li>
-        <li id="label-3">
+        <li id="label-3" className="label">
           <span>No seu lar</span>
         </li>
-        <li id="label-4">
+        <li id="label-4" className="label">
           <span>Toque celestial</span>
         </li>
       </ul>

@@ -15,10 +15,11 @@ export const HeroContainer = styled.div`
     letter-spacing: 0.05rem;
     text-transform: uppercase;
     color: var(--white);
-    margin-bottom: 80px;
+    transform: translateY(-56px);
 
     grid-area: 1/1;
     z-index: 1;
+    animation: ScaleUp 1.5s ease;
   }
 
   span {
@@ -37,6 +38,32 @@ export const HeroContainer = styled.div`
     object-fit: cover;
   }
 
+  @keyframes ScaleUp {
+    from {
+      transform: translateY(0);
+      scale: 0;
+      opacity: 0;
+    }
+    to {
+      transform: translateY(-56px);
+      scale: 1;
+      opacity: 1;
+    }
+  }
+
+  @keyframes ScaleUpMobile {
+    from {
+      transform: translateY(0);
+      scale: 0;
+      opacity: 0;
+    }
+    to {
+      transform: translateY(16px);
+      scale: 1;
+      opacity: 1;
+    }
+  }
+
   @media screen and (max-width: 1280px) {
     span {
       opacity: 0;
@@ -49,7 +76,8 @@ export const HeroContainer = styled.div`
 
     h1 {
       font-size: 3.5rem;
-      margin-bottom: -40px;
+      transform: translateY(16px);
+      animation: ScaleUpMobile 1.5s ease;
     }
 
     img {

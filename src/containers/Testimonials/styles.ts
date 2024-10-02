@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const TestimonialsContainer = styled.section`
   background-image: linear-gradient(var(--white) 70%, var(--bg));
-  overflow-x: hidden;
+  overflow: hidden;
 
   .swiper-wrapper {
     display: flex;

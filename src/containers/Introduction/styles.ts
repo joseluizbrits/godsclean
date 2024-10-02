@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const IntroductionContainer = styled.section`
+  overflow: hidden;
+
   ul {
     height: 85vh;
     position: relative;

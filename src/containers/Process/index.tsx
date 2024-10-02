@@ -2,11 +2,20 @@
 
 import { ProcessContainer } from "./styles";
 import { openSans } from "@/lib/fonts";
+import { useRef } from "react";
+import { ShowUp } from "@/animation";
 import Title from "@/components/Title";
 
 function Process() {
+  const container = useRef(null);
+
+  ShowUp(container, ["#process-1", "#process-2", "#process-3"]);
+
   return (
-    <ProcessContainer className="containers-between-space margin-space">
+    <ProcessContainer
+      className="containers-between-space margin-space"
+      ref={container}
+    >
       <Title>
         <h2>Como Funciona o Processo?</h2>
         <p className={openSans.className}>
@@ -17,7 +26,7 @@ function Process() {
       </Title>
 
       <ul>
-        <li>
+        <li id="process-1">
           <div>
             <span>1</span>
             <h3>Flotador Limpador</h3>
@@ -34,7 +43,7 @@ function Process() {
           </div>
         </li>
 
-        <li>
+        <li id="process-2">
           <div>
             <span>2</span>
             <h3>Remoção de Sujidade</h3>
@@ -51,7 +60,7 @@ function Process() {
           </div>
         </li>
 
-        <li>
+        <li id="process-3">
           <div>
             <span>3</span>
             <h3>Extração e Enxágue</h3>

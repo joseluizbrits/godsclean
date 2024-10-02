@@ -1,8 +1,8 @@
 "use client";
 
 import { PartnersContainer } from "./styles";
-import Title from "@/components/Title";
 import Image from "next/image";
+import Title from "@/components/Title";
 
 function Partners() {
   return (

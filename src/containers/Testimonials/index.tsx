@@ -9,6 +9,8 @@ import { Pagination } from "swiper/modules";
 
 import { testimonials } from "./testimonials";
 import { openSans } from "@/lib/fonts";
+import { useRef } from "react";
+import { ShowUp } from "@/animation";
 
 import Title from "@/components/Title";
 import Star from "@/icons/Star";
@@ -17,6 +19,9 @@ import useMedia from "@/hooks/useMedia";
 
 function Testimonials() {
   const mobile = useMedia("(max-width: 1080px)");
+  const container = useRef(null);
+
+  ShowUp(container, ["#testimonials"]);
 
   const pagination = {
     clickable: true,
@@ -26,13 +31,16 @@ function Testimonials() {
   };
 
   return (
-    <TestimonialsContainer className="containers-between-space padding-space">
+    <TestimonialsContainer
+      className="containers-between-space padding-space"
+      ref={container}
+    >
       <Title centered>
         <h2>Depoimentos</h2>
       </Title>
 
       <Swiper
-        id="projects"
+        id="testimonials"
         slidesPerView={mobile ? 1 : 2}
         spaceBetween={20}
         pagination={pagination}
