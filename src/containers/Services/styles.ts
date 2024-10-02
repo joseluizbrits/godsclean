@@ -8,7 +8,7 @@ export const ServicesContainer = styled.section`
     font-weight: 500;
     font-size: clamp(2.15rem, 3vw, 3.25rem);
     letter-spacing: 0.02rem;
-    line-height: 1.1em;
+    line-height: 1.25em;
     color: var(--text);
     max-width: 11ch;
     margin-bottom: 64px;
@@ -36,7 +36,7 @@ export const ServicesContainer = styled.section`
 
   li p {
     font-size: 1.15rem;
-    line-height: 1.35em;
+    line-height: 1.4em;
     color: var(--text);
 
     strong {
@@ -132,12 +132,8 @@ export const ServicesContainer = styled.section`
       gap: 20px;
     }
 
-    li p {
-      font-size: 1rem;
-
-      strong {
-        font-size: 1.2rem;
-      }
+    li p strong {
+      font-size: 1.25rem;
     }
 
     .images > :nth-child(1) {

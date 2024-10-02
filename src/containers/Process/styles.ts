@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
 export const ProcessContainer = styled.section`
+  h2 {
+    line-height: 1.25em;
+  }
+
   ul {
     margin-top: 80px;
     display: grid;
@@ -41,8 +45,8 @@ export const ProcessContainer = styled.section`
   }
 
   p {
-    color: var(--text);
     font-size: 1.15rem;
+    color: var(--text);
   }
 
   p + p {
@@ -53,5 +57,9 @@ export const ProcessContainer = styled.section`
     ul {
       grid-template-columns: 1fr;
     }
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-top: 140px;
   }
 `;

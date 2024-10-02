@@ -12,7 +12,7 @@ export const AboutContainer = styled.section`
 
   h3 {
     font-weight: 500;
-    font-size: 3rem;
+    font-size: clamp(2.15rem, 3vw, 3.25rem);
     letter-spacing: 0.02rem;
     line-height: 1.1em;
     color: var(--text);
@@ -22,7 +22,7 @@ export const AboutContainer = styled.section`
 
   > :nth-child(2) p {
     font-size: 1.15rem;
-    line-height: 1.15em;
+    line-height: 1.25em;
     color: var(--text);
   }
 
@@ -49,13 +49,14 @@ export const AboutContainer = styled.section`
 
   li h4 {
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 2.25rem;
     letter-spacing: 0.05rem;
     color: var(--white);
   }
 
   li p {
-    font-size: 1.15rem;
+    font-size: 1.25rem;
+    line-height: 1.25em;
     text-align: center;
     color: var(--white);
   }
@@ -84,8 +85,11 @@ export const AboutContainer = styled.section`
   }
 
   @media screen and (max-width: 768px) {
+    padding-top: 140px;
+
     > :nth-child(2),
     ul {
+      margin-top: 80px;
       grid-template-columns: 1fr;
     }
   }

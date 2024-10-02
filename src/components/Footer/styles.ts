@@ -41,4 +41,12 @@ export const FooterContainer = styled.footer`
       text-align: center;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    padding-top: 140px;
+
+    span {
+      max-width: 34ch;
+    }
+  }
 `;

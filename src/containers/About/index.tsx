@@ -14,8 +14,9 @@ function About() {
       <Title centered>
         <h2>Quem somos nós?</h2>
         <p className={openSans.className}>
-          Vamos alem de um simples serviço de limpeza. Queremos que você receba
-          tenha uma experiência leve e agradável, além da limpeza profissional
+          Vamos <strong>além de um simples serviço de limpeza.</strong> Queremos
+          que você tenha uma experiência leve e agradável, além da limpeza
+          profissional
         </p>
       </Title>
 
@@ -30,7 +31,7 @@ function About() {
               renovados.
             </p>
             <p className={openSans.className}>
-              Combinamos produtos de alta qualidade e o toque especial de uma
+              Combinamos produtos de alta qualidade e um toque especial da nossa
               equipe dedicada para garantir um serviço impecável.
             </p>
           </div>
@@ -54,7 +55,7 @@ function About() {
         <li>
           <Goal />
           <h4>Missão</h4>
-          <p>Oferecer não apenas serviços, mas uma experiência de renovação.</p>
+          <p>Oferecer uma experiência de renovação.</p>
         </li>
         <li>
           <Eye />

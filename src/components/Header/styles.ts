@@ -37,4 +37,15 @@ export const HeaderContainer = styled.header`
       left: 14.5%;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    ul :last-child a {
+      padding-right: 0;
+
+      &::after {
+        width: 83%;
+        left: 16.5%;
+      }
+    }
+  }
 `;

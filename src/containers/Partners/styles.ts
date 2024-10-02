@@ -16,7 +16,7 @@ export const PartnersContainer = styled.section`
 
   li {
     max-width: 200px;
-    min-width: 120px;
+    min-width: 160px;
     background-color: #dfe8fa;
 
     border-radius: 100%;
@@ -36,6 +36,15 @@ export const PartnersContainer = styled.section`
   @media screen and (max-width: 992px) {
     ul {
       justify-content: start;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-top: 140px;
+
+    ul {
+      margin-top: 48px;
+      gap: 12px;
     }
   }
 `;

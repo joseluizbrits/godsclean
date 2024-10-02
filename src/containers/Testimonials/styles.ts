@@ -49,7 +49,7 @@ export const TestimonialsContainer = styled.section`
 
   p {
     font-size: 1.15rem;
-    line-height: 1.25em;
+    line-height: 1.5em;
     color: var(--text);
     margin-top: 28px;
     margin-bottom: 64px;
@@ -103,5 +103,25 @@ export const TestimonialsContainer = styled.section`
 
   @media screen and (max-width: 1440px) {
     padding-top: 200px;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-top: 160px;
+
+    .swiper-wrapper {
+      margin-top: 56px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .swiper-slide > :first-child {
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    p {
+      margin-top: 40px;
+      margin-bottom: 64px;
+    }
   }
 `;

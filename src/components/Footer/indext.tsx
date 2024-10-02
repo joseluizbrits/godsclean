@@ -14,7 +14,7 @@ function Footer() {
       <div>
         <span>
           © Copyright {new Date().getFullYear()} -{" "}
-          {new Date().getFullYear() + 1} | GODSCLEAN | Todos os Direitos
+          {new Date().getFullYear() + 1} | GodsClean | Todos os Direitos
           Reservados | Desenvolvido por 
           <Link href="https://www.brits.com.br/" target="_blank">
             BRITS

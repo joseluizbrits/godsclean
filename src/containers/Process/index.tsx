@@ -8,10 +8,11 @@ function Process() {
   return (
     <ProcessContainer className="containers-between-space margin-space">
       <Title>
-        <h2>Como funciona o processo?</h2>
+        <h2>Como Funciona o Processo?</h2>
         <p className={openSans.className}>
-          O processo de limpeza é simples, rápido e utiliza produtos próprios e
-          de alta qualidade. A cura do seu sofá funciona da seguinte maneira
+          O processo de limpeza é simples, rápido e utiliza{" "}
+          <strong>produtos próprios e de alta qualidade.</strong> A cura do seu
+          sofá funciona da seguinte maneira
         </p>
       </Title>
 

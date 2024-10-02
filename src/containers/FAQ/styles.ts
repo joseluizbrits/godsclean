@@ -19,21 +19,22 @@ export const FAQContainer = styled.section`
     padding: 24px;
     cursor: pointer;
 
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr auto;
     align-items: center;
   }
 
   h3 {
     font-weight: 500;
     font-size: 1.5rem;
+    line-height: 1.3em;
     letter-spacing: 0.05rem;
     color: var(--emphasis);
   }
 
   p {
-    font-size: 1.15rem;
-    line-height: 1.25em;
+    font-size: 1.25rem;
+    line-height: 1.4em;
     color: var(--emphasis);
     height: 0;
     opacity: 0;
@@ -54,7 +55,11 @@ export const FAQContainer = styled.section`
   @media screen and (max-width: 1080px) {
     ul {
       margin: 0;
-      margin-top: 64px;
+      margin-top: 56px;
     }
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-top: 140px;
   }
 `;
