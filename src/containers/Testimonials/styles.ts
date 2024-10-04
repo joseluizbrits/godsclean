@@ -15,6 +15,8 @@ export const TestimonialsContainer = styled.section`
     background-color: var(--bg);
     padding: 28px;
     border-radius: 10px;
+
+    display: grid;
   }
 
   .swiper-slide > :first-child {
@@ -56,6 +58,7 @@ export const TestimonialsContainer = styled.section`
   }
 
   .swiper-slide > :last-child {
+    align-self: end;
     display: flex;
     justify-content: space-between;
     align-items: center;

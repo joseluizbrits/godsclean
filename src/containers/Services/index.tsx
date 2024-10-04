@@ -86,17 +86,25 @@ function Services() {
             <Image
               src="/sofa-3.webp"
               fill
+              sizes="(min-width: 768px) 30vw, 15vw"
               alt="Um sofá azul clarinho"
               unoptimized
             />
           </div>
           <div id="img-4">
-            <Image src="/sofa-4.webp" fill alt="Um sofá clarinho" unoptimized />
+            <Image
+              src="/sofa-4.webp"
+              fill
+              sizes="(min-width: 768px) 30vw, 15vw"
+              alt="Um sofá clarinho"
+              unoptimized
+            />
           </div>
           <div id="img-5">
             <Image
               src="/sofa-5.webp"
               fill
+              sizes="(min-width: 768px) 30vw, 15vw"
               alt="Um sofá verde amplo"
               unoptimized
             />

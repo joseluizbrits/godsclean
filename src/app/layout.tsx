@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL("https://godsclean.com.br"),
   openGraph: {
-    title: "GodsClena | Limpeza e Higienização de Estofados",
+    title: "GodsClean | Limpeza e Higienização de Estofados",
     description:
       "Precisando de uma milagre para o seu sofá? Agende já sua limpeza com a GodsClean! Combinamos produtos de alta qualidade com um toque celestial para resgatar a pureza do seu sofá",
     type: "website",
