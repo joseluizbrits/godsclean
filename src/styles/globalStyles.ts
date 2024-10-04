@@ -75,23 +75,22 @@ const GlobalStyles = createGlobalStyle`
   *::-webkit-scrollbar,
   body::-webkit-scrollbar,
   html::-webkit-scrollbar {
-    background: var(--bg);
-    width: 12px;
+    background: transparent;
+    width: 8px;
     height: 12px;
   }
 
   *::-webkit-scrollbar-thumb,
   body::-webkit-scrollbar-thumb,
   html::-webkit-scrollbar-thumb {
-    background: var(--bg);
-    border-radius: 5px;
-    border: 1px solid var(--white);
+    background: var(--white);
+    border-radius: 3px;
   }
 
   *::-webkit-scrollbar-thumb:hover,
   body::-webkit-scrollbar-thumb:hover,
   html::-webkit-scrollbar-thumb:hover {
-    background: var(--white);
+    background: #FFF7AC;
   }
 
   @media screen and (max-width: 1440px) {

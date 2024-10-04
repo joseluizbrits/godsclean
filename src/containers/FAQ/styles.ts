@@ -60,6 +60,10 @@ export const FAQContainer = styled.section`
     }
   }
 
+  @media screen and (max-width: 1440px) {
+    padding-top: 200px;
+  }
+
   @media screen and (max-width: 1080px) {
     ul {
       margin: 0;

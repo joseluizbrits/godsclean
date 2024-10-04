@@ -44,8 +44,9 @@ function Introduction() {
       <div className="image-container">
         <Image
           src="/sofa.png"
-          fill
           alt="Sofá branco com uma mesinha branca que tem um abajur branco em cima"
+          fill
+          sizes="100vw"
           unoptimized
         />
       </div>

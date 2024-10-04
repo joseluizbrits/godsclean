@@ -25,7 +25,7 @@ export const HeroContainer = styled.div`
   span {
     color: var(--text);
     letter-spacing: 0.05rem;
-    max-width: 42ch;
+    max-width: 46ch;
     margin-bottom: 40px;
     opacity: 0.5;
 

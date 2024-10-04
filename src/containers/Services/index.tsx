@@ -34,7 +34,7 @@ function Services() {
 
       <div className="content">
         <div>
-          <h3>São Três Tipos de Lavagem</h3>
+          <h3>São Três Tipos de Limpeza</h3>
 
           <ul>
             <li id="service-1">
@@ -69,6 +69,7 @@ function Services() {
             <Image
               src="/sofa-1.webp"
               fill
+              sizes="(min-width: 1440px) 60vw, 40vw"
               alt="Um sofá e uma poltrona marrons"
             />
           </div>
@@ -76,6 +77,7 @@ function Services() {
             <Image
               src="/sofa-2.webp"
               fill
+              sizes="(min-width: 768px) 30vw, 15vw"
               alt="Uma poltrona azul água"
               unoptimized
             />

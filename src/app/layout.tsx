@@ -6,7 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer/indext";
 
 export const metadata: Metadata = {
-  title: "GodsClean | Limpeza e Lavagem de Estofados",
+  title: "GodsClean | Limpeza e Higienização de Estofados",
   description: "MUDAR AQUI!!!",
   keywords: [
     "limpeza de sofá",
@@ -25,13 +25,13 @@ export const metadata: Metadata = {
       "pt-BR": "/pt-BR",
     },
   },
-  // metadataBase: new URL("https://godsclean.com.br"),
+  metadataBase: new URL("https://godsclean.com.br"),
   openGraph: {
-    title: "GodsClena | Limpeza e Lavagem de Estofados",
+    title: "GodsClena | Limpeza e Higienização de Estofados",
     description:
       "Precisando de uma milagre para o seu sofá? Agende já sua limpeza com a GodsClean! Combinamos produtos de alta qualidade com um toque celestial para resgatar a pureza do seu sofá",
     type: "website",
-    // url: "https://godsclean.com.br",
+    url: "https://godsclean.com.br",
     siteName: "GodsClean",
     locale: "pt_BR",
   },

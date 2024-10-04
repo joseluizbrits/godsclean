@@ -69,7 +69,7 @@ function About() {
         <li id="vision">
           <Eye />
           <h4>Visão</h4>
-          <p>Se tornar referência em prestações de serviços no Brasil.</p>
+          <p>Se tornar referência em prestação de serviços no Brasil.</p>
         </li>
         <li id="values">
           <Heart />

@@ -65,7 +65,7 @@ export const ServicesContainer = styled.section`
     img {
       object-fit: cover;
       border-radius: 2px;
-      transition: scale 0.3s ease-out;
+      transition: 0.3s ease-out;
     }
   }
 
@@ -77,6 +77,7 @@ export const ServicesContainer = styled.section`
   #img-1 {
     grid-column: span 2;
     grid-row: span 2;
+    z-index: 1;
   }
 
   #img-2 {
@@ -98,7 +99,6 @@ export const ServicesContainer = styled.section`
   @media screen and (min-width: 1440px) {
     img:hover {
       scale: 1.05;
-      z-index: 1;
     }
   }
 

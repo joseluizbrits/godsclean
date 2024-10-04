@@ -61,21 +61,41 @@ export const TestimonialsContainer = styled.section`
     align-items: center;
   }
 
-  .swiper-slide > :last-child > div {
+  .author {
     display: flex;
+    gap: 16px;
+  }
+
+  .author > :last-child {
+    display: grid;
     align-items: center;
-    gap: 20px;
+
+    > :last-child {
+      align-self: start;
+    }
+  }
+
+  .avatar {
+    width: clamp(72px, 10vw, 100px);
+    height: clamp(72px, 10vw, 100px);
+    position: relative;
+
+    img {
+      object-fit: cover;
+    }
   }
 
   .stars {
+    width: max-content;
     display: flex;
     gap: 8px;
   }
 
   span {
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: clamp(1.25rem, 1.5rem, 1.5rem);
     letter-spacing: 0.05rem;
+    line-height: 1.25em;
     color: var(--emphasis);
   }
 
@@ -131,6 +151,10 @@ export const TestimonialsContainer = styled.section`
     .swiper-slide > :first-child {
       flex-direction: column;
       gap: 4px;
+    }
+
+    .swiper-slide > :last-child > svg {
+      display: none;
     }
 
     p {

@@ -12,23 +12,44 @@ function Partners() {
       </Title>
       <ul>
         <li>
-          <Image src="/marinha.webp" fill alt="Logo da Marinha do Brasil" />
+          <Image
+            src="/marinha.webp"
+            fill
+            sizes="15vw"
+            alt="Logo da Marinha do Brasil"
+          />
         </li>
         <li>
-          <Image src="/almofadinhas.webp" fill alt="Logo da Almofadinhas" />
+          <Image
+            src="/almofadinhas.webp"
+            fill
+            sizes="15vw"
+            alt="Logo da Almofadinhas"
+          />
         </li>
         <li>
           <Image
             src="/uerj.webp"
             fill
+            sizes="15vw"
             alt="Logo da Universidade do Estado do Rio de Janeiro (UERJ)"
           />
         </li>
         <li>
-          <Image src="/oticas-souza.webp" fill alt="Logo da Óticas Souza" />
+          <Image
+            src="/oticas-souza.webp"
+            fill
+            sizes="15vw"
+            alt="Logo da Óticas Souza"
+          />
         </li>
         <li>
-          <Image src="/lewer-tur.webp" fill alt="Logo da Lewer Tur" />
+          <Image
+            src="/lewer-tur.webp"
+            fill
+            sizes="15vw"
+            alt="Logo da Lewer Tur"
+          />
         </li>
       </ul>
     </PartnersContainer>

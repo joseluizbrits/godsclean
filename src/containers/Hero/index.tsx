@@ -8,14 +8,15 @@ function Hero() {
     <HeroContainer>
       <h1>GODSCLEAN</h1>
 
-      <span className="padding-space">Lavagem e Limpeza de Estofados</span>
+      <span className="padding-space">Limpeza e Higienização de Estofados</span>
 
       <Image
-        fill
-        unoptimized
-        priority
         src={"/hero.png"}
         alt="sofá azul centralizado no centro com uma mesinha ao lado com livros em cima"
+        fill
+        sizes="100vw"
+        priority
+        unoptimized
       />
     </HeroContainer>
   );

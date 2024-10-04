@@ -23,6 +23,7 @@ export const HeaderContainer = styled.header`
     padding: 16px 16px 8px 16px;
     font-weight: 600;
     text-transform: uppercase;
+    color: var(--text);
     border-radius: 5px;
     cursor: pointer;
 
